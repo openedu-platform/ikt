@@ -49,7 +49,7 @@
           "slika": "",
           "odgovori": [
             "Informacione tehnologije",
-            "Informacione-komunikacione tehnologije",
+            "Informaciono-komunikacione tehnologije",
             "Internet tehnologije",
             "Informacija i telefon"
           ],
@@ -62,7 +62,7 @@
           "slika": "",
           "odgovori": [
             "Informacione tehnologije",
-            "Informacione-komunikacione tehnologije",
+            "Informaciono-komunikacione tehnologije",
             "Internet komunikacione tehnologije",
             "Informatičke kompjuterske tehnologije"
           ],
@@ -113,14 +113,14 @@
           "redni": 0,
           "tekst": "Koje cifre koristimo za zapisivanje brojeva u binarnom sistemu?",
           "slika": "",
-          "odgovori": [
-            "0 i 1",
+          "odgovori": [            
             "0, 1, 2, 3, 4, 5, 6, 7, 8 i 9",
+            "0 i 1",
             "1 i 2",
             "Samo 1"
           ],
-          "tacni": [true, false, false, false],
-          "grananje": [1, 0, 0, 0]
+          "tacni": [false, true, false, false],
+          "grananje": [0, 1, 0, 0]
         },
         {
           "redni": 1,
@@ -128,7 +128,7 @@
           "slika": "",
           "odgovori": [
             "Jedinica koja se sastoji od 1024 bajta",
-            "Najmanja jedinica informacije. Može biti 0 ili 1.",
+            "Najmanja jedinica informacije. Može biti ili 0 ili 1.",
             "Jedinica koja se sastoji od osam bajta",
             "Broj u dekadnom sistemu"
           ],
@@ -170,7 +170,7 @@
       "teorija":
       [
         {
-          "tekst": "Osnovna jedinica informacije je bit, a bajt je jedinica koja se sastoji od osam bita.<br><br>Veće jedinice od bajta su kilobajt, megabajt, gigabajt i terabajt.",
+          "tekst": "Osnovna jedinica informacije je bit, a bajt je jedinica koja se sastoji od osam bita.<br><br>Veće jedinice od bajta su kilobajt (KB), megabajt (MB), gigabajt (GB) i terabajt (TB).",
           "slika": "",
           "video": ""
         },
@@ -285,7 +285,7 @@
         },
         {
           "redni": 2,
-          "tekst": "Koji dekadni broj odgovara binarnom broju (101)₂?",
+          "tekst": "Koji dekadni broj odgovara binarnom broju (101)₂?<br>Napomena: Na testu u školi će biti obavezan i ispravnan postupak.",
           "slika": "",
           "odgovori": [
             "3",
@@ -298,7 +298,7 @@
         },
         {
           "redni": 3,
-          "tekst": "Koji dekadni broj je određen binarnim zapisom (1101)₂?",
+          "tekst": "Koji dekadni broj je određen binarnim zapisom (1101)₂?<br>Napomena: Na testu u školi će biti obavezan i ispravnan postupak.",
           "slika": "",
           "odgovori": [
             "11",
@@ -328,7 +328,7 @@
       [
         {
           "redni": 0,
-          "tekst": "Prevedite binarni broj (110101)₂ u dekadni broj.",
+          "tekst": "Prevedite binarni broj (00110101)₂ u dekadni broj.<br>Napomena: Na testu u školi će biti obavezan i ispravnan postupak.",
           "slika": "",
           "odgovori": [
             "51",
@@ -341,20 +341,20 @@
         },
         {
           "redni": 1,
-          "tekst": "Koji dekadni broj je određen binarnim zapisom (00110101)₂?",
+          "tekst": "Koji dekadni broj je određen binarnim zapisom (00101111)₂?<br>Napomena: Na testu u školi će biti obavezan i ispravnan postupak.",
           "slika": "",
           "odgovori": [
-            "51",
-            "52",
+            "37",
             "53",
-            "54"
+            "47",
+            "59"
           ],
           "tacni": [false, false, true, false],
           "grananje": [0, 1, 2, 1]
         },
         {
           "redni": 2,
-          "tekst": "Koji dekadni broj je određen binarnim zapisom (00101011)₂?",
+          "tekst": "Koji dekadni broj je određen binarnim zapisom (00101011)₂?<br>Napomena: Na testu u školi će biti obavezan i ispravnan postupak.",
           "slika": "",
           "odgovori": [
             "41",
@@ -368,23 +368,22 @@
       ]
     },
 
-
     {
       "nazivDelaLekcije": "Pretvaranje dekadnog broja u binarni",
       "teorija":
       [
         {
-          "tekst": "Dekadni broj prevodimo u binarni sistem tako što ga uzastopno delimo brojem 2.<br><br>Pri svakom deljenju zapisujemo ostatak. Deljenje nastavljamo sve dok količnik ne bude 0.<br><br>Na kraju sve dobijene ostatke čitamo obrnutim redom, odnosno odozdo nagore.",
+          "tekst": "Dekadni broj prevodimo u binarni sistem tako što ga uzastopno delimo brojem 2.<br>Koristimo celobrojno deljenje sa ostatkom.<br><br>Pri svakom deljenju zapisujemo i količnik i ostatak. Deljenje nastavljamo sve dok količnik ne bude 0.<br><br>Na kraju sve dobijene ostatke zapišemo obrnutim redom, odnosno odozdo nagore.",
           "slika": "",
           "video": ""
         },
         {
-          "tekst": "Primer za broj 13:<br><br>13 : 2 = 6, ostatak 1<br>6 : 2 = 3, ostatak 0<br>3 : 2 = 1, ostatak 1<br>1 : 2 = 0, ostatak 1<br><br>Ostatke čitamo odozdo nagore: 1101.<br><br>Zato je (13)₁₀ = (1101)₂.",
+          "tekst": "Primer za broj 13:<br><br>13 : 2 = 6, ostatak 1<br>6 : 2 = 3, ostatak 0<br>3 : 2 = 1, ostatak 1<br>1 : 2 = 0, ostatak 1<br><br>Ostatke čitamo i zapišemo odozdo na gore: 1101.<br><br>Zato je (13)₁₀ = (1101)₂.",
           "slika": "",
           "video": ""
         },
         {
-          "tekst": "Kada rezultat treba zapisati sa osam cifara, ispred dobijenog binarnog broja dodajemo nule.<br><br>Na primer:<br>(13)₁₀ = (1101)₂ = (00001101)₂.",
+          "tekst": "Kada rezultat treba zapisati sa osam cifara (kao bajt), ispred dobijenog binarnog broja dodajemo nule.<br><br>Na primer:<br>(13)₁₀ = (1101)₂ = (00001101)₂.",
           "slika": "",
           "video": ""
         }
@@ -397,7 +396,7 @@
           "tekst": "Kako prevodimo dekadni broj u binarni brojni sistem?",
           "slika": "",
           "odgovori": [
-            "Uzastopnim deljenjem brojem 2 i zapisivanjem ostataka.",
+            "Uzastopnim celobrojnim deljenjem brojem 2 i zapisivanjem ostataka.",
             "Uzastopnim množenjem brojem 10.",
             "Deljenjem brojem 10 i čitanjem količnika.",
             "Dodavanjem brojeva 0 i 1."
@@ -423,9 +422,9 @@
           "tekst": "Kako zapisujemo ostatke dobijene pri deljenju dekadnog broja sa 2?",
           "slika": "",
           "odgovori": [
-            "Istim redom kojim su dobijeni.",
+            "Istim redom kojim smo dobijali ostatke, odozgo na dole.",
             "Nasumičnim redom.",
-            "Suprotnim redom, odozdo nagore.",
+            "Suprotnim redom od onog kako smo dobijali ostatki, tj. odozdo na gore.",
             "Uvek ih brišemo."
           ],
           "tacni": [false, false, true, false],
@@ -433,7 +432,7 @@
         },
         {
           "redni": 3,
-          "tekst": "Prevedite dekadni broj 37 u binarni brojni sistem i rezultat zapišite sa osam cifara.",
+          "tekst": "Prevedite dekadni broj 37 u binarni brojni sistem i rezultat zapišite sa osam cifara.<br>Napomena: Na testu u školi će biti obavezan i ispravnan postupak.",
           "slika": "",
           "odgovori": [
             "00100101",
@@ -446,7 +445,7 @@
         },
         {
           "redni": 4,
-          "tekst": "Prevedite dekadni broj 47 u binarni brojni sistem i rezultat zapišite sa osam cifara.",
+          "tekst": "Prevedite dekadni broj 47 u binarni brojni sistem i rezultat zapišite sa osam cifara.<br>Napomena: Na testu u školi će biti obavezan i ispravnan postupak.",
           "slika": "",
           "odgovori": [
             "00101101",
@@ -459,7 +458,6 @@
         }
       ]
     },
-
 
     {
       "nazivDelaLekcije": "Provera znanja za kontrolni",
@@ -515,7 +513,7 @@
         },
         {
           "redni": 3,
-          "tekst": "Koji dekadni broj je određen binarnim zapisom (00110101)₂?",
+          "tekst": "Koji dekadni broj je određen binarnim zapisom (00110101)₂?<br>Napomena: Na testu u školi će biti obavezan i ispravnan postupak.",
           "slika": "",
           "odgovori": [
             "51",
@@ -528,7 +526,7 @@
         },
         {
           "redni": 4,
-          "tekst": "Koji dekadni broj je određen binarnim zapisom (00101011)₂?",
+          "tekst": "Koji dekadni broj je određen binarnim zapisom (00101011)₂?<br>Napomena: Na testu u školi će biti obavezan i ispravnan postupak.",
           "slika": "",
           "odgovori": [
             "41",
@@ -541,7 +539,7 @@
         },
         {
           "redni": 5,
-          "tekst": "Prevedite dekadni broj 37 u binarni brojni sistem. Rezultat zapišite sa osam cifara.",
+          "tekst": "Prevedite dekadni broj 37 u binarni brojni sistem. Rezultat zapišite sa osam cifara.<br>Napomena: Na testu u školi će biti obavezan i ispravnan postupak.",
           "slika": "",
           "odgovori": [
             "00100101",
@@ -554,7 +552,7 @@
         },
         {
           "redni": 6,
-          "tekst": "Prevedite dekadni broj 47 u binarni brojni sistem. Rezultat zapišite sa osam cifara.",
+          "tekst": "Prevedite dekadni broj 47 u binarni brojni sistem. Rezultat zapišite sa osam cifara.<br>Napomena: Na testu u školi će biti obavezan i ispravnan postupak.",
           "slika": "",
           "odgovori": [
             "00101101",
@@ -563,7 +561,7 @@
             "00111101"
           ],
           "tacni": [false, false, true, false],
-          "grananje": [6, 6, 7, 6]
+          "grananje": [6, 6, 99, 6]
         }
       ]
     }
