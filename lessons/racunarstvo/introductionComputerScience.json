@@ -424,7 +424,7 @@
           "odgovori": [
             "Istim redom kojim smo dobijali ostatke, odozgo na dole.",
             "Nasumičnim redom.",
-            "Suprotnim redom od onog kako smo dobijali ostatki, tj. odozdo na gore.",
+            "Suprotnim redom od onog kako smo dobijali ostatke, tj. odozdo na gore.",
             "Uvek ih brišemo."
           ],
           "tacni": [false, false, true, false],
