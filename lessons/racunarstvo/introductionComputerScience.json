@@ -26,7 +26,7 @@
   [
 
     {
-      "nazivDelaLekcije": "Informacione i informacione-komunikacione tehnologije",
+      "nazivDelaLekcije": "Informacione tehnologije (IT) i informaciono-komunikacione tehnologije (IKT)",
       "teorija":
       [
         {
@@ -35,7 +35,7 @@
           "video": ""
         },
         {
-          "tekst": "Kada informacionim tehnologijama dodamo komunikacione tehnologije, kao što su telekomunikacije i internet tehnologije, dolazimo do šireg pojma IKT.<br><br>IKT je skraćenica za informacione-komunikacione tehnologije.",
+          "tekst": "Kada informacionim tehnologijama dodamo komunikacione tehnologije, kao što su telekomunikacije i internet tehnologije, dolazimo do šireg pojma IKT.<br><br>IKT je skraćenica za informaciono-komunikacione tehnologije.",
           "slika": "images/pn-it-ikt.jpg",
           "video": ""
         }
