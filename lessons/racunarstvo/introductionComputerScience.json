@@ -1,7 +1,7 @@
 {
-    "_comment-sr": "Razgranato programirano ucenje - lesson: Uvod u računarstvo i informatiku - podatak, informatika, racunar, racunarstvo... podrska-razni jezici, podrska-inkluzija",
-    "_comment-en": "Branched programmed learning - lesson: Introduction to computing and informatics - data, informatics, computers... support-various languages, support-inclusion",
-    "_comment-class": "Ova lekcija je namenjena 1. razredu srednje skole",
+    "_comment-sr": "Razgranato programirano ucenje - lesson: IT, IKT, b, B, KB, MB, GB, TB, kodiranje iz binarnog u dekadni i obratno... podrska-razni jezici, podrska-inkluzija",
+    "_comment-en": "Branching programmed learning – lesson: IT (Information Technology), ICT (Information and Communication Technology), b (bit), B (byte), KB (kilobyte), MB (megabyte), GB (gigabyte), TB (terabyte), binary to decimal coding and vice versa.... support-various languages, support-inclusion",
+    "_comment-class": "Ova lekcija je namenjena 1. razredu srednje skole - This lesson is intended for first-year high school students.",
     "_comment_note_for_teachers": "Slike i video su opcionalni. - Pictures and video are optional.",
     
     "meta": {
@@ -12,7 +12,7 @@
       "subject": "Racunarstvo i informatika",
       "license": "copyright, ©, CC BY-NC",
       "version": "1.0",
-      "lesson_modified": "20. jan 2026 22:36"
+      "lesson_modified": "14. sep 2026 20:06"
     },
     
     "lesson_default_language": "en",
