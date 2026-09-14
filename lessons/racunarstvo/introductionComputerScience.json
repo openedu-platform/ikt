@@ -17,169 +17,560 @@
     
     "lesson_default_language": "en",
 
-    "sr": 
-    { 
-      "naslov": "Uvod u računarstvo i informatiku",
-      "naslovProzora": "Programirano učenje",
-      
-      "deloviLekcije": 
-      [   
-       { 
-         "nazivDelaLekcije": "Podatak i informacija", 
-         "teorija":     
-         [  
-           {
-             "tekst": "Podatak je zapis činjenice, najčešće sastavljen od brojeva, slova ili simbola.<br><br>Na primer, podatak je broj 4 . Podatak se može tumačiti na različite načine. Broj 4 može predstavljati ocenu učenika ili udaljenost od 4 kilometra i drugo.",
-             "slika": "images/podatak50.png",
-             "video": ""
-           },
-           {
-             "tekst": "Informacija je skup podataka koji su protumačeni na neki način.<br><br>Na primer: \"Petar je dobio ocenu 5 iz geografije.\" U ovoj rečenici je broju 5 dat smisao, broj 5 je protumačen, pa je to informacija.<br>50 - podatak. Masa tega je 50kg - informacija.",
-             "slika": "images/informacija.png",
-             "video": ""
-           }
-         ],
+"sr":
+{
+  "naslov": "IKT, binarni i dekadni brojni sistem",
+  "naslovProzora": "Programirano učenje",
 
-         "pitanja": 
-         [
-           {
-             "redni": 0,
-             "tekst": "Šta je podatak?",
-             "slika": "",
-             "odgovori": ["To je kada znamo da je neko rastojanje 4 kilometra.", "To je, na primer, kada znamo da je Petar dobio 5 iz geografije.", "To je skup podataka koji su protumačeni na neki način.", "To je zapis činjenice, najčešće sastavljen od brojeva, slova ili simbola."],
-             "tacni": [false, false, false, true],
-             "grananje": [1, 1, 2, 3]
-           },
-           {
-             "redni": 1,
-             "tekst": "Izaberite primer podatka među ponuđenim opcijama.",
-             "slika": "",
-             "odgovori": ["Broj 3 je veći od broja 2.", "Zbir brojeva 3 i 2 je jednak 5.", "Inform@t!k@12345", "Francuska je u Evropi"],
-             "tacni": [false, false, true, false],
-             "grananje": [2, 2, 3, 2]
-           },
-           {
-             "redni": 2,
-             "tekst": "Izaberite primer podatka među ponuđenim opcijama.",
-             "slika": "",
-             "odgovori": ["Petar dobio 5 iz geografije.", "4", "Obrazovanje je korisno.", "Sada odgovaram na pitanja."],
-             "tacni": [false, true, false, false],
-             "grananje": [-1, 3, -1, -1]
-           },
-           {
-             "redni": 3,
-             "tekst": "Izaberite primer informacije među ponuđenim opcijama.",
-             "slika": "images/informacija_mala.png",
-             "odgovori": ["4", "podatak", "Broj Pi, tj. &pi; u matematici ima približnu vrednost 3.14", "Napajanje"],
-             "tacni": [false, false, true, false],
-             "grananje": [4, 4, 6, 4]
-           },
-           {
-             "redni": 4,
-             "tekst": "Šta je informacija?",
-             "slika": "images/informacija_mala.png",
-             "odgovori": ["To je skup podataka koji su protumačeni na neki način.", "5", "50", "To je zapis činjenice, najčešće sastavljen od brojeva, slova ili simbola."],
-             "tacni": [true, false, false, false],
-             "grananje": [6, 5, 5, 5] 
-           },
-           {
-             "redni": 5,
-             "tekst": "Izaberite primer informacije među ponuđenim opcijama.",
-             "slika": "",
-             "odgovori": ["5", "0.142857", "Milan je dobio ocenu 5 iz engleskog jezika.", "2E+77232917-1"],
-             "tacni": [false, false, true, false],
-             "grananje": [-1, -1, 6, -1]
-           }
-         ]
-       },
-  
-    
-       { 
-         "nazivDelaLekcije": "Računarstvo i informatika",
-         "teorija": 
-         [
-           {
-             "tekst": "Informatika se bavi prikupljanjem, čuvanjem, obradom i prenosom informacija, kao i primenom računara u raznim oblastima.",
-             "slika": "images/informatika.png",
-             "video": ""
-           },
-           {
-             "tekst": "Računarstvo se bavi proučavanjem teorije i prakse procesa računanja. (udžbenik za 1. razred (Filip Marić))<br><br>Računarstvo se bavi proučavanjem računarskih sistema i teorije informacije i računanja, i njihovim primenama.(Britannica)",
-             "slika": "images/racunarstvo.png",
-             "video": ""
-           }
-         ],
+  "deloviLekcije":
+  [
 
-         "pitanja": [
-           {
-             "redni": 0,
-             "tekst": "Dopuniti rečenicu:________________________ se bavi prikupljanjem, čuvanjem, obradom i prenosom informacija, kao i primenom računara u raznim oblastima.",
-             "slika": "",
-             "odgovori": ["Računarstvo", "Informatika", "Računar", "Informacija"],
-             "tacni": [false, true, false, false],
-             "grananje": [-1, 1, -1, -1]
-           },
-           {
-             "redni": 1,
-             "tekst": "Dopuniti rečenicu: ________________________ se bavi proučavanjem teorije i prakse procesa računanja.",
-             "slika": "",
-             "odgovori": ["Računarstvo", "Prenos informacija", "Informatika", "Računarski sistem"],
-             "tacni": [true, false, false, false],
-             "grananje": [3, 2, 2, 2]
-           },
-           {
-             "redni": 2,
-             "tekst": "Dopuniti rečenicu: ________________________ se bavi proučavanjem računarskih sistema i teorije informacije i računanja, i njihovim primenama.",
-             "slika": "",
-             "odgovori": ["Informatika", "Prenos informacija", "Računarstvo", "Računarski sistem"],
-             "tacni": [false, false, true, false],
-             "grananje": [-1, -1, 3, -1]
-           }
-         ]
-       },
+    {
+      "nazivDelaLekcije": "Informacione i informacione-komunikacione tehnologije",
+      "teorija":
+      [
+        {
+          "tekst": "IT (engl. IT) je skraćenica za informacione tehnologije.<br><br>Informacione tehnologije obuhvataju računarske sisteme (hardver i softver) za prikupljanje, obradu, čuvanje, prenos i zaštitu informacija, kao i programske jezike za kreiranje softvera.",
+          "slika": "",
+          "video": ""
+        },
+        {
+          "tekst": "Kada informacionim tehnologijama dodamo komunikacione tehnologije, kao što su telekomunikacije i internet tehnologije, dolazimo do šireg pojma IKT.<br><br>IKT je skraćenica za informacione-komunikacione tehnologije.",
+          "slika": "",
+          "video": ""
+        }
+      ],
 
-
-       { 
-         "nazivDelaLekcije": "Računar (računarski sistem, kompjuter)",
-         "teorija": [
-           {
-             "tekst": "Računar (računarski sistem, kompjuter) je mašina koja se može programirati za obavljanje različitih vrsta zadataka. On obrađuje i čuva informacije.<br><br>Ovaj pojam uključuje i desktop i prenosne (notebook, laptop) računare, pametne telefone (smartphones), tablete, ugrađene (embedded) računare u automobilima, avionima, frižiderima itd.",
-             "slika": "", 
-             "video": "videos/Embedded-Compurs.mp4"
-           }
-         ],
-
-         "pitanja": [
-           {
-             "redni": 0,
-             "tekst": "Šta je računar (računarski sistem, kompjuter)?",
-             "slika": "images/computers_small.png",
-             "odgovori": ["To je skup komponenti", "To je isto šta i informatika", "Računar se bavi prikupljanjem podataka.", "To je mašina koji se može programirati za obavljanje različitih vrsta zadataka."],
-             "tacni": [false, false, false, true],
-             "grananje": [1, 1, 1, 2]
-           },
-           {
-             "redni": 1,
-             "tekst": "Dopuniti rečenicu: ________________________ je mašina koja se može programirati za obavljanje različitih vrsta zadataka.",
-             "slika": "images/computers_small.png",
-             "odgovori": ["Informatika", "Računar", "Računarstvo", "Informacija"],
-             "tacni": [false, true, false, false],
-             "grananje": [-1, 2, -1, -1]
-           },
-           {
-             "redni": 2,
-             "tekst": "Šta podrazumeva pojam računara?",
-             "slika": "",
-             "odgovori": ["Ovaj pojam uključuje i desktop i prenosne (notebook, laptop) računare, pametne telefone (smartphones), tablete, ugrađene (embedded) računare itd.", "Ovaj pojam uključuje samo desktop kompjutere.", "Ovaj pojam uključuje samo laptop računare.", "Uključuje samo laptop i tablet"],
-             "tacni": [true, false, false, false],
-             "grananje": [3, -1, -1, -1]
-           }
-         ]
-       } 
+      "pitanja":
+      [
+        {
+          "redni": 0,
+          "tekst": "Šta znači skraćenica IT?",
+          "slika": "",
+          "odgovori": [
+            "Informacione tehnologije",
+            "Informacione-komunikacione tehnologije",
+            "Internet tehnologije",
+            "Informacija i telefon"
+          ],
+          "tacni": [true, false, false, false],
+          "grananje": [1, 0, 0, 0]
+        },
+        {
+          "redni": 1,
+          "tekst": "Šta znači skraćenica IKT?",
+          "slika": "",
+          "odgovori": [
+            "Informacione tehnologije",
+            "Informacione-komunikacione tehnologije",
+            "Internet komunikacione tehnologije",
+            "Informatičke kompjuterske tehnologije"
+          ],
+          "tacni": [false, true, false, false],
+          "grananje": [1, 2, 1, 1]
+        },
+        {
+          "redni": 2,
+          "tekst": "Dopuniti rečenicu: Kada na IT dodamo komunikacione tehnologije, dolazimo do šireg pojma ______.",
+          "slika": "",
+          "odgovori": [
+            "računarstvo",
+            "informatika",
+            "IKT",
+            "hardver"
+          ],
+          "tacni": [false, false, true, false],
+          "grananje": [2, 2, 3, 2]
+        }
       ]
     },
+
+
+    {
+      "nazivDelaLekcije": "Binarni sistem, bit i bajt",
+      "teorija":
+      [
+        {
+          "tekst": "Kada zapisujemo brojeve u binarnom sistemu, koristimo samo dve cifre: 0 i 1.<br><br>Binarni sistem je brojni sistem sa osnovom 2.",
+          "slika": "",
+          "video": ""
+        },
+        {
+          "tekst": "Bit (engl. bit - binary digit) je najmanja jedinica informacije u računarstvu. Bit može imati vrednost 0 ili 1. Oznaka za bit je malo slovo b.",
+          "slika": "",
+          "video": ""
+        },
+        {
+          "tekst": "Bajt (Byte) je jedinica informacije u računarstvu koja se sastoji od osam bita. Oznaka za bajt je veliko slovo B.<br><br>Dakle: 1 B = 8 b.",
+          "slika": "",
+          "video": ""
+        }
+      ],
+
+      "pitanja":
+      [
+        {
+          "redni": 0,
+          "tekst": "Koje cifre koristimo za zapisivanje brojeva u binarnom sistemu?",
+          "slika": "",
+          "odgovori": [
+            "0 i 1",
+            "0, 1, 2, 3, 4, 5, 6, 7, 8 i 9",
+            "1 i 2",
+            "Samo 1"
+          ],
+          "tacni": [true, false, false, false],
+          "grananje": [1, 0, 0, 0]
+        },
+        {
+          "redni": 1,
+          "tekst": "Šta je bit?",
+          "slika": "",
+          "odgovori": [
+            "Jedinica koja se sastoji od 1024 bajta",
+            "Najmanja jedinica informacije. Može biti 0 ili 1.",
+            "Jedinica koja se sastoji od osam bajta",
+            "Broj u dekadnom sistemu"
+          ],
+          "tacni": [false, true, false, false],
+          "grananje": [1, 2, 1, 1]
+        },
+        {
+          "redni": 2,
+          "tekst": "Dopuniti rečenicu: Bajt je jedinica informacije u računarstvu koja se sastoji od ______ bita.",
+          "slika": "",
+          "odgovori": [
+            "2",
+            "4",
+            "8",
+            "1024"
+          ],
+          "tacni": [false, false, true, false],
+          "grananje": [2, 2, 3, 2]
+        },
+        {
+          "redni": 3,
+          "tekst": "Koja tvrdnja je tačna?",
+          "slika": "",
+          "odgovori": [
+            "Bit je najmanja jedinica informacije i može biti 0 ili 1.",
+            "Bit je jedinica od 1024 bajta.",
+            "Bajt ima dva bita.",
+            "Binarni sistem koristi deset cifara."
+          ],
+          "tacni": [true, false, false, false],
+          "grananje": [4, 3, 3, 3]
+        }
+      ]
+    },
+
+
+    {
+      "nazivDelaLekcije": "Jedinice za merenje količine informacija",
+      "teorija":
+      [
+        {
+          "tekst": "Osnovna jedinica informacije je bit, a bajt je jedinica koja se sastoji od osam bita.<br><br>Veće jedinice od bajta su kilobajt, megabajt, gigabajt i terabajt.",
+          "slika": "",
+          "video": ""
+        },
+        {
+          "tekst": "Odnosi većih jedinica su:<br><br>1 KB = 1024 B<br>1 MB = 1024 KB<br>1 GB = 1024 MB<br>1 TB = 1024 GB",
+          "slika": "",
+          "video": ""
+        }
+      ],
+
+      "pitanja":
+      [
+        {
+          "redni": 0,
+          "tekst": "Koji je pravilan odnos između kilobajta i bajta?",
+          "slika": "",
+          "odgovori": [
+            "1 KB = 1024 B",
+            "1 KB = 1024 MB",
+            "1 KB = 8 B",
+            "1 KB = 100 B"
+          ],
+          "tacni": [true, false, false, false],
+          "grananje": [1, 0, 0, 0]
+        },
+        {
+          "redni": 1,
+          "tekst": "Koji je pravilan odnos?",
+          "slika": "",
+          "odgovori": [
+            "1 MB = 1024 B",
+            "1 MB = 1024 KB",
+            "1 MB = 1024 GB",
+            "1 MB = 8 KB"
+          ],
+          "tacni": [false, true, false, false],
+          "grananje": [1, 2, 1, 1]
+        },
+        {
+          "redni": 2,
+          "tekst": "Koji je pravilan redosled jedinica od manje ka većoj?",
+          "slika": "",
+          "odgovori": [
+            "B, KB, MB, GB, TB",
+            "KB, B, MB, TB, GB",
+            "B, MB, KB, GB, TB",
+            "TB, GB, MB, KB, B"
+          ],
+          "tacni": [true, false, false, false],
+          "grananje": [3, 2, 2, 2]
+        },
+        {
+          "redni": 3,
+          "tekst": "Koji odnos je tačan?",
+          "slika": "",
+          "odgovori": [
+            "1 GB = 1024 MB",
+            "1 GB = 1024 KB",
+            "1 TB = 1024 MB",
+            "1 MB = 1024 GB"
+          ],
+          "tacni": [true, false, false, false],
+          "grananje": [4, 3, 3, 3]
+        }
+      ]
+    },
+
+
+    {
+      "nazivDelaLekcije": "Dekadni i binarni brojni sistem",
+      "teorija":
+      [
+        {
+          "tekst": "U dekadnom sistemu koristimo deset cifara: 0, 1, 2, 3, 4, 5, 6, 7, 8 i 9. Zato se dekadni sistem naziva i brojni sistem sa osnovom 10.<br><br>Na primer:<br>5803 = 5·10³ + 8·10² + 0·10¹ + 3·10⁰.",
+          "slika": "",
+          "video": ""
+        },
+        {
+          "tekst": "Binarni sistem ima osnovu 2 i koristi samo cifre 0 i 1. Računar koristi binarni sistem za zapisivanje podataka.<br><br>Na primer:<br>(101)₂ = 1·2² + 0·2¹ + 1·2⁰ = 4 + 0 + 1 = 5.<br><br>Zato važi: (101)₂ = (5)₁₀.",
+          "slika": "",
+          "video": ""
+        }
+      ],
+
+      "pitanja":
+      [
+        {
+          "redni": 0,
+          "tekst": "Koliko cifara koristimo u dekadnom brojnom sistemu?",
+          "slika": "",
+          "odgovori": [
+            "2",
+            "8",
+            "10",
+            "16"
+          ],
+          "tacni": [false, false, true, false],
+          "grananje": [0, 1, 1, 1]
+        },
+        {
+          "redni": 1,
+          "tekst": "Koja tvrdnja opisuje binarni brojni sistem?",
+          "slika": "",
+          "odgovori": [
+            "To je sistem sa osnovom 10 i koristi cifre od 0 do 9.",
+            "To je sistem sa osnovom 2 i koristi cifre 0 i 1.",
+            "To je sistem koji koristi samo cifru 1.",
+            "To je sistem koji koristi 16 cifara."
+          ],
+          "tacni": [false, true, false, false],
+          "grananje": [1, 2, 1, 1]
+        },
+        {
+          "redni": 2,
+          "tekst": "Koji dekadni broj odgovara binarnom broju (101)₂?",
+          "slika": "",
+          "odgovori": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "tacni": [false, false, true, false],
+          "grananje": [2, 2, 3, 2]
+        },
+        {
+          "redni": 3,
+          "tekst": "Koji dekadni broj je određen binarnim zapisom (1101)₂?",
+          "slika": "",
+          "odgovori": [
+            "11",
+            "12",
+            "13",
+            "14"
+          ],
+          "tacni": [false, false, true, false],
+          "grananje": [3, 3, 4, 3]
+        }
+      ]
+    },
+
+
+    {
+      "nazivDelaLekcije": "Pretvaranje binarnog broja u dekadni",
+      "teorija":
+      [
+        {
+          "tekst": "Binarni broj možemo prevesti u dekadni tako što svaku cifru množimo odgovarajućim stepenom broja 2, počevši od krajnje desne cifre sa stepenom 0.<br><br>Primer:<br>(110101)₂ = 1·2⁵ + 1·2⁴ + 0·2³ + 1·2² + 0·2¹ + 1·2⁰<br>= 32 + 16 + 0 + 4 + 0 + 1<br>= 53.<br><br>Zato je (110101)₂ = (53)₁₀.",
+          "slika": "",
+          "video": ""
+        }
+      ],
+
+      "pitanja":
+      [
+        {
+          "redni": 0,
+          "tekst": "Prevedite binarni broj (110101)₂ u dekadni broj.",
+          "slika": "",
+          "odgovori": [
+            "51",
+            "52",
+            "53",
+            "54"
+          ],
+          "tacni": [false, false, true, false],
+          "grananje": [0, 1, 1, 1]
+        },
+        {
+          "redni": 1,
+          "tekst": "Koji dekadni broj je određen binarnim zapisom (00110101)₂?",
+          "slika": "",
+          "odgovori": [
+            "51",
+            "52",
+            "53",
+            "54"
+          ],
+          "tacni": [false, false, true, false],
+          "grananje": [0, 1, 2, 1]
+        },
+        {
+          "redni": 2,
+          "tekst": "Koji dekadni broj je određen binarnim zapisom (00101011)₂?",
+          "slika": "",
+          "odgovori": [
+            "41",
+            "42",
+            "43",
+            "44"
+          ],
+          "tacni": [false, false, true, false],
+          "grananje": [1, 1, 3, 1]
+        }
+      ]
+    },
+
+
+    {
+      "nazivDelaLekcije": "Pretvaranje dekadnog broja u binarni",
+      "teorija":
+      [
+        {
+          "tekst": "Dekadni broj prevodimo u binarni sistem tako što ga uzastopno delimo brojem 2.<br><br>Pri svakom deljenju zapisujemo ostatak. Deljenje nastavljamo sve dok količnik ne bude 0.<br><br>Na kraju sve dobijene ostatke čitamo obrnutim redom, odnosno odozdo nagore.",
+          "slika": "",
+          "video": ""
+        },
+        {
+          "tekst": "Primer za broj 13:<br><br>13 : 2 = 6, ostatak 1<br>6 : 2 = 3, ostatak 0<br>3 : 2 = 1, ostatak 1<br>1 : 2 = 0, ostatak 1<br><br>Ostatke čitamo odozdo nagore: 1101.<br><br>Zato je (13)₁₀ = (1101)₂.",
+          "slika": "",
+          "video": ""
+        },
+        {
+          "tekst": "Kada rezultat treba zapisati sa osam cifara, ispred dobijenog binarnog broja dodajemo nule.<br><br>Na primer:<br>(13)₁₀ = (1101)₂ = (00001101)₂.",
+          "slika": "",
+          "video": ""
+        }
+      ],
+
+      "pitanja":
+      [
+        {
+          "redni": 0,
+          "tekst": "Kako prevodimo dekadni broj u binarni brojni sistem?",
+          "slika": "",
+          "odgovori": [
+            "Uzastopnim deljenjem brojem 2 i zapisivanjem ostataka.",
+            "Uzastopnim množenjem brojem 10.",
+            "Deljenjem brojem 10 i čitanjem količnika.",
+            "Dodavanjem brojeva 0 i 1."
+          ],
+          "tacni": [true, false, false, false],
+          "grananje": [1, 0, 0, 0]
+        },
+        {
+          "redni": 1,
+          "tekst": "Kada prevodimo dekadni broj u binarni, kada prestajemo sa deljenjem?",
+          "slika": "",
+          "odgovori": [
+            "Kada ostatak prvi put bude 1.",
+            "Kada količnik bude 0.",
+            "Kada količnik bude 1.",
+            "Posle tačno dva deljenja."
+          ],
+          "tacni": [false, true, false, false],
+          "grananje": [1, 2, 1, 1]
+        },
+        {
+          "redni": 2,
+          "tekst": "Kako zapisujemo ostatke dobijene pri deljenju dekadnog broja sa 2?",
+          "slika": "",
+          "odgovori": [
+            "Istim redom kojim su dobijeni.",
+            "Nasumičnim redom.",
+            "Suprotnim redom, odozdo nagore.",
+            "Uvek ih brišemo."
+          ],
+          "tacni": [false, false, true, false],
+          "grananje": [2, 2, 3, 2]
+        },
+        {
+          "redni": 3,
+          "tekst": "Prevedite dekadni broj 37 u binarni brojni sistem i rezultat zapišite sa osam cifara.",
+          "slika": "",
+          "odgovori": [
+            "00100101",
+            "00100110",
+            "00101001",
+            "00101101"
+          ],
+          "tacni": [true, false, false, false],
+          "grananje": [4, 3, 3, 3]
+        },
+        {
+          "redni": 4,
+          "tekst": "Prevedite dekadni broj 47 u binarni brojni sistem i rezultat zapišite sa osam cifara.",
+          "slika": "",
+          "odgovori": [
+            "00101101",
+            "00101110",
+            "00101111",
+            "00111101"
+          ],
+          "tacni": [false, false, true, false],
+          "grananje": [4, 4, 5, 4]
+        }
+      ]
+    },
+
+
+    {
+      "nazivDelaLekcije": "Provera znanja za kontrolni",
+      "teorija":
+      [
+        {
+          "tekst": "Sada proverite da li ste spremni za kontrolni. Obratite pažnju na pojmove IT i IKT, bit i bajt, jedinice za količinu informacija, kao i na pretvaranje brojeva između binarnog i dekadnog sistema.<br><br>Posebno vežbajte pretvaranje dekadnih brojeva u binarne brojeve zapisane sa osam cifara i pretvaranje binarnih zapisa u dekadne brojeve.",
+          "slika": "",
+          "video": ""
+        }
+      ],
+
+      "pitanja":
+      [
+        {
+          "redni": 0,
+          "tekst": "Bit (u računarstvu) je:",
+          "slika": "",
+          "odgovori": [
+            "najmanja jedinica informacije i može biti 0 ili 1.",
+            "jedinica informacije koja se sastoji od osam bita.",
+            "jednak 1024 KB.",
+            "jednak 1024 MB."
+          ],
+          "tacni": [true, false, false, false],
+          "grananje": [1, 0, 0, 0]
+        },
+        {
+          "redni": 1,
+          "tekst": "Bajt je:",
+          "slika": "",
+          "odgovori": [
+            "najmanja jedinica informacije.",
+            "jedinica informacije koja se sastoji od osam bita.",
+            "jednak 1024 MB.",
+            "jednak 1024 KB."
+          ],
+          "tacni": [false, true, false, false],
+          "grananje": [1, 2, 1, 1]
+        },
+        {
+          "redni": 2,
+          "tekst": "Koji je tačan niz jedinica za merenje količine informacija?",
+          "slika": "",
+          "odgovori": [
+            "B, KB, MB, GB, TB",
+            "KB, MB, B, GB, TB",
+            "B, MB, KB, TB, GB",
+            "TB, GB, KB, MB, B"
+          ],
+          "tacni": [true, false, false, false],
+          "grananje": [3, 2, 2, 2]
+        },
+        {
+          "redni": 3,
+          "tekst": "Koji dekadni broj je određen binarnim zapisom (00110101)₂?",
+          "slika": "",
+          "odgovori": [
+            "51",
+            "52",
+            "53",
+            "54"
+          ],
+          "tacni": [false, false, true, false],
+          "grananje": [3, 3, 4, 3]
+        },
+        {
+          "redni": 4,
+          "tekst": "Koji dekadni broj je određen binarnim zapisom (00101011)₂?",
+          "slika": "",
+          "odgovori": [
+            "41",
+            "42",
+            "43",
+            "44"
+          ],
+          "tacni": [false, false, true, false],
+          "grananje": [4, 4, 5, 4]
+        },
+        {
+          "redni": 5,
+          "tekst": "Prevedite dekadni broj 37 u binarni brojni sistem. Rezultat zapišite sa osam cifara.",
+          "slika": "",
+          "odgovori": [
+            "00100101",
+            "00100110",
+            "00101001",
+            "00101101"
+          ],
+          "tacni": [true, false, false, false],
+          "grananje": [5, 5, 6, 5]
+        },
+        {
+          "redni": 6,
+          "tekst": "Prevedite dekadni broj 47 u binarni brojni sistem. Rezultat zapišite sa osam cifara.",
+          "slika": "",
+          "odgovori": [
+            "00101101",
+            "00101110",
+            "00101111",
+            "00111101"
+          ],
+          "tacni": [false, false, true, false],
+          "grananje": [6, 6, 7, 6]
+        }
+      ]
+    }
+
+  ]
+},
     
-      
     "en": 
     {
       "naslov": "Introduction to Computer Science and Informatics",
