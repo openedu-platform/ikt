@@ -45,13 +45,13 @@
       [
         {
           "redni": 0,
-          "tekst": "Šta znači skraćenica IT?",
+          "tekst": "Šta znači skraćenica IT ?",
           "slika": "",
           "odgovori": [
             "Informacione tehnologije",
             "Informaciono-komunikacione tehnologije",
             "Internet tehnologije",
-            "Informacija i telefon"
+            "Informatika i telefon"
           ],
           "tacni": [true, false, false, false],
           "grananje": [1, 0, 0, 0]
