@@ -1,5 +1,5 @@
 let currentLanguage = "sr";  //sr ili en za sada, currentLanguage i ostale su globalne promenljive
-let currentLessonFile = "racunarstvo/introductionComputerScience.json"; //osnove_racunara.json ili computer_basics.json za sada ili lessons/racunarstvo/introductionComputerScience.json
+let currentLessonFile = "racunarstvo/ikt-bin-dec.json"; //osnove_racunara.json ili computer_basics.json za sada ili lessons/racunarstvo/introductionComputerScience.json
 let lessonData = null;
 
 // stanje renderera - NOVO 02.maj 23_58
