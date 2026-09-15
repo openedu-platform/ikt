@@ -7,9 +7,9 @@
     "meta": {
       "Author": "Ljubisa Cvetic",
       "School": "Ugostiteljsko-turisticka skola, Beograd, Srbija",
-      "id": "introductionComputerScience",
+      "id": "ikt-dec-bin",
       "grade": 9,
-      "subject": "Racunarstvo i informatika",
+      "subject": "IT, IKT, бинарни систем, бит, бајт, KB,MB, GB,TB, кодирање iz binarnog u dekadni sistem i obratno",
       "license": "copyright, ©, CC BY-NC",
       "version": "1.0",
       "lesson_modified": "15. sep 2026 22:36"
@@ -18,7 +18,7 @@
     "lesson_default_language": "sr",
 
 "sr": {
-    "naslov": "Priprema za kontrolni test iz računarstva i informatike – druga generacija!",
+    "naslov": "Priprema za kontrolni test iz računarstva i informatike !",
     "naslovProzora": "Programirano učenje",
     "deloviLekcije": [
       {
@@ -27,12 +27,12 @@
         "teorija": [
           {
             "tekst": "IT (informacione tehnologije) obuhvataju računarske sisteme (hardver i softver) za prikupljanje, obradu, čuvanje, prenos i zaštitu informacija, kao i programske jezike za kreiranje softvera.",
-            "slika": "",
+            "slika": "images/pn-it-ikt.jpg",
             "video": ""
           },
           {
             "tekst": "Kada na IT dodamo komunikacione tehnologije, kao što su telekomunikacije i internet tehnologije, dolazimo do šireg pojma IKT – informaciono-komunikacione tehnologije.",
-            "slika": "",
+            "slika": "images/pn-it-ikt.jpg",
             "video": ""
           }
         ],
