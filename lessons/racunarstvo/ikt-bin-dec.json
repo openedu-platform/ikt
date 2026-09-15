@@ -38,13 +38,13 @@
         "pitanja": [
           {
             "redni": 0,
-            "tekst": "Šta znači skraćenica IT?",
+            "tekst": "Šta znači skraćenica IT ?",
             "slika": "",
             "odgovori": [
               "Informacione tehnologije",
               "Informaciono-komunikacione tehnologije",
               "Internet tehnologije",
-              "Informacija i telefon"
+              "Informatika i tehnika"
             ],
             "tacni": [true, false, false, false],
             "grananje": [1, 2, 2, 2]
