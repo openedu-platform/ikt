@@ -7,18 +7,17 @@
     "meta": {
       "Author": "Ljubisa Cvetic",
       "School": "Ugostiteljsko-turisticka skola, Beograd, Srbija",
-      "id": "introductionComputerScience",
+      "id": "ikt-bin-dec",
       "grade": 9,
-      "subject": "Racunarstvo i informatika",
+      "subject": "IKT, binarni sistem",
       "license": "copyright, ©, CC BY-NC",
       "version": "1.0",
-      "lesson_modified": "14. sep 2026 20:06"
+      "lesson_modified": "15. sep 2026 20:06"
     },
     
-    "lesson_default_language": "en",
+    "lesson_default_language": "sr",
 
-"sr":
-{
+"sr": {
   "naslov": "IKT, binarni i dekadni brojni sistem",
   "naslovProzora": "Programirano učenje",
 
