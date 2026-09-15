@@ -29,12 +29,12 @@
       "teorija":
       [
         {
-          "tekst": "IT (engl. IT) je skraćenica za informacione tehnologije.<br><br>Informacione tehnologije obuhvataju računarske sisteme (hardver i softver) za prikupljanje, obradu, čuvanje, prenos i zaštitu informacija, kao i programske jezike za kreiranje softvera.",
+          "tekst": "IT je skraćenica za informacione tehnologije.<br><br>Informacione tehnologije obuhvataju računarske sisteme (hardver i softver) za prikupljanje, obradu, čuvanje, prenos i zaštitu informacija, kao i programske jezike za kreiranje softvera.",
           "slika": "images/pn-it-ikt.jpg",
           "video": ""
         },
         {
-          "tekst": "Kada informacionim tehnologijama dodamo komunikacione tehnologije, kao što su telekomunikacije i internet tehnologije, dolazimo do šireg pojma IKT.<br><br>IKT je skraćenica za informaciono-komunikacione tehnologije.",
+          "tekst": "IKT je skraćenica za informaciono-komunikacione tehnologije.<br><br>Kada informacionim tehnologijama dodamo komunikacione tehnologije, kao što su telekomunikacije i internet tehnologije, dolazimo do šireg pojma IKT.",
           "slika": "images/pn-it-ikt.jpg",
           "video": ""
         }
@@ -44,7 +44,7 @@
       [
         {
           "redni": 0,
-          "tekst": "Šta znači skraćenica IT?",
+          "tekst": "Šta znači skraćenica IT ?",
           "slika": "",
           "odgovori": [
             "Informacione tehnologije",
