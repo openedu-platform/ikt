@@ -17,341 +17,314 @@
     
     "lesson_default_language": "sr",
 
-"sr": {
-    "naslov": "Priprema za kontrolni test iz računarstva i informatike !",
-    "naslovProzora": "Programirano učenje",
-    "deloviLekcije": [
-      {
-        "nazivDelaLekcije": "Informacione tehnologije (IT) i informaciono-komunikacione tehnologije (IKT)",
+"sr": 
+    {
+        "nazivDelaLekcije": "Informacione tehnologije (IT) i informaciono-komunikacione tehnologije (IKT) !",
 
-        "teorija": [
-          {
-            "tekst": "IT (informacione tehnologije) obuhvataju računarske sisteme (hardver i softver) za prikupljanje, obradu, čuvanje, prenos i zaštitu informacija, kao i programske jezike za kreiranje softvera.",
-            "slika": "images/pn-it-ikt.jpg",
-            "video": ""
-          },
-          {
-            "tekst": "Kada na IT dodamo komunikacione tehnologije, kao što su telekomunikacije i internet tehnologije, dolazimo do šireg pojma IKT – informaciono-komunikacione tehnologije.",
-            "slika": "images/pn-it-ikt.jpg",
-            "video": ""
-          }
-        ],
+  "teorija": [
+    {
+      "tekst": "IT (informacione tehnologije) - One obuhvataju računarske sisteme (hardver i softver) za prikupljanje, obradu, čuvanje, prenos i zaštitu informacija, kao i programske jezike za kreiranje softvera.",
+      "slika": "images/pn-it-ikt.jpg",
+      "video": ""
+    },
+    {
+      "tekst": "IKT - informaciono-komunikacione tehnologije; Kada na IT dodamo komunikacione tehnologije, kao što su telekomunikacije i internet tehnologije, dolazimo do šireg pojma IKT – informaciono-komunikacione tehnologije.",
+      "slika": "images/pn-it-ikt.jpg",
+      "video": ""
+    }
+  ],
 
-        "pitanja": [
+  "pitanja": [
 
-          {
-            "redni": 0,
-            "tekst": "Šta znači skraćenica IT?",
-            "slika": "",
-            "odgovori": [
-              "Informacione tehnologije",
-              "Informacione telekomunikacije",
-              "Internet tehnologije",
-              "Informatičke tehnologije"
-            ],
-            "tacni": [
-              true,
-              false,
-              false,
-              false
-            ],
-            "grananje": [
-              1,
-              2,
-              2,
-              2
-            ]
-          },
+    {
+      "redni": 0,
+      "tekst": "Šta znači skraćenica IT?",
+      "slika": "",
+      "odgovori": [
+        "Informacione tehnologije",
+        "Informacione telekomunikacije",
+        "Internet tehnologije",
+        "Informatičke tehnologije"
+      ],
+      "tacni": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "grananje": [
+        1,
+        4,
+        4,
+        4
+      ]
+    },
 
-          {
-            "redni": 1,
-            "tekst": "Šta obuhvataju informacione tehnologije (IT)?",
-            "slika": "",
-            "odgovori": [
-              "Samo računarske igre i zabavne programe",
-              "Računarske sisteme, odnosno hardver i softver, za prikupljanje, obradu, čuvanje, prenos i zaštitu informacija, kao i programske jezike za kreiranje softvera",
-              "Samo internet i društvene mreže",
-              "Samo računarski hardver"
-            ],
-            "tacni": [
-              false,
-              true,
-              false,
-              false
-            ],
-            "grananje": [
-              3,
-              4,
-              5,
-              5
-            ]
-          },
+    {
+      "redni": 1,
+      "tekst": "Šta obuhvataju informacione tehnologije (IT)?",
+      "slika": "",
+      "odgovori": [
+        "Samo računarske igre i zabavne programe",
+        "Računarske sisteme, odnosno hardver i softver, za prikupljanje, obradu, čuvanje, prenos i zaštitu informacija, kao i programske jezike za kreiranje softvera",
+        "Samo internet i društvene mreže",
+        "Samo računarski hardver"
+      ],
+      "tacni": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "grananje": [
+        5,
+        2,
+        6,
+        7
+      ]
+    },
 
-          {
-            "redni": 2,
-            "tekst": "Skraćenica IT znači:",
-            "slika": "",
-            "odgovori": [
-              "Informacione tehnologije",
-              "Informaciono-komunikacione tehnologije",
-              "Internet tehnologije",
-              "Informaciona televizija"
-            ],
-            "tacni": [
-              true,
-              false,
-              false,
-              false
-            ],
-            "grananje": [
-              3,
-              6,
-              7,
-              7
-            ]
-          },
+    {
+      "redni": 2,
+      "tekst": "Šta znači skraćenica IKT?",
+      "slika": "",
+      "odgovori": [
+        "Informacione tehnologije",
+        "Informaciono-komunikacione tehnologije",
+        "Internet komunikacione tehnologije",
+        "Informatičke kontrolne tehnologije"
+      ],
+      "tacni": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "grananje": [
+        8,
+        3,
+        8,
+        8
+      ]
+    },
 
-          {
-            "redni": 3,
-            "tekst": "Koja tvrdnja najbolje opisuje IT?",
-            "slika": "",
-            "odgovori": [
-              "IT obuhvata samo računarske igre",
-              "IT obuhvata računarske sisteme za rad sa informacijama i programske jezike za kreiranje softvera",
-              "IT predstavlja samo internet",
-              "IT predstavlja samo računarski hardver"
-            ],
-            "tacni": [
-              false,
-              true,
-              false,
-              false
-            ],
-            "grananje": [
-              8,
-              9,
-              8,
-              8
-            ]
-          },
+    {
+      "redni": 3,
+      "tekst": "Koja tvrdnja pravilno povezuje IT i IKT?",
+      "slika": "",
+      "odgovori": [
+        "IT obuhvata informacione tehnologije, a IKT predstavlja širi pojam koji uključuje i komunikacione tehnologije",
+        "IT je širi pojam od IKT jer ne uključuje komunikaciju",
+        "IT i IKT su dva potpuno nepovezana pojma",
+        "IKT se odnosi samo na računarski hardver"
+      ],
+      "tacni": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "grananje": [
+        13,
+        9,
+        10,
+        11
+      ]
+    },
 
-          {
-            "redni": 4,
-            "tekst": "Koja od navedenih tvrdnji je najbliža onome što IT obuhvata?",
-            "slika": "",
-            "odgovori": [
-              "IT se odnosi samo na delove računara koje možemo fizički dodirnuti",
-              "IT obuhvata računarske sisteme, hardver i softver, za rad sa informacijama",
-              "IT znači samo korišćenje interneta",
-              "IT se odnosi samo na računarske igre"
-            ],
-            "tacni": [
-              false,
-              true,
-              false,
-              false
-            ],
-            "grananje": [
-              8,
-              3,
-              8,
-              8
-            ]
-          },
+    {
+      "redni": 4,
+      "tekst": "Koje je tačno značenje skraćenice IT?",
+      "slika": "",
+      "odgovori": [
+        "Informacione tehnologije",
+        "Informacione telekomunikacije",
+        "Internet tehnologije",
+        "Informatičke tehnologije"
+      ],
+      "tacni": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "grananje": [
+        1,
+        -1,
+        -1,
+        -1
+      ]
+    },
 
-          {
-            "redni": 5,
-            "tekst": "Ako učenik izabere odgovor da IT predstavlja samo internet ili samo hardver, šta treba da zapamti?",
-            "slika": "",
-            "odgovori": [
-              "IT obuhvata samo internet",
-              "IT obuhvata samo hardver",
-              "IT obuhvata računarske sisteme, odnosno hardver i softver, za rad sa informacijama",
-              "IT nema veze sa informacijama"
-            ],
-            "tacni": [
-              false,
-              false,
-              true,
-              false
-            ],
-            "grananje": [
-              -1,
-              -1,
-              3,
-              -1
-            ]
-          },
+    {
+      "redni": 5,
+      "tekst": "Učenik kaže: „IT su samo računarske igre i zabavni programi.“ Šta je potrebno ispraviti u ovom razmišljanju?",
+      "slika": "",
+      "odgovori": [
+        "IT se odnosi samo na igre",
+        "IT obuhvata računarske sisteme, odnosno hardver i softver, za rad sa informacijama",
+        "IT nema veze sa softverom",
+        "IT se odnosi samo na internet"
+      ],
+      "tacni": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "grananje": [
+        -1,
+        1,
+        -1,
+        -1
+      ]
+    },
 
-          {
-            "redni": 6,
-            "tekst": "Šta znači skraćenica IKT?",
-            "slika": "",
-            "odgovori": [
-              "Informacione tehnologije",
-              "Informaciono-komunikacione tehnologije",
-              "Internet komunikacione tehnologije",
-              "Informatičke kontrolne tehnologije"
-            ],
-            "tacni": [
-              false,
-              true,
-              false,
-              false
-            ],
-            "grananje": [
-              10,
-              9,
-              10,
-              10
-            ]
-          },
+    {
+      "redni": 6,
+      "tekst": "Učenik kaže: „IT znači samo internet i društvene mreže.“ Koja tvrdnja ispravlja ovu grešku?",
+      "slika": "",
+      "odgovori": [
+        "IT obuhvata samo internet",
+        "IT obuhvata računarske sisteme, hardver i softver, za rad sa informacijama",
+        "IT nema veze sa informacijama",
+        "IT predstavlja samo društvene mreže"
+      ],
+      "tacni": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "grananje": [
+        -1,
+        1,
+        -1,
+        -1
+      ]
+    },
 
-          {
-            "redni": 7,
-            "tekst": "Šta dobijamo kada informacionim tehnologijama (IT) dodamo komunikacione tehnologije?",
-            "slika": "",
-            "odgovori": [
-              "Dobijamo IKT – informaciono-komunikacione tehnologije",
-              "Dobijamo samo računarski hardver",
-              "Dobijamo samo internet",
-              "Ne dobijamo ništa novo"
-            ],
-            "tacni": [
-              true,
-              false,
-              false,
-              false
-            ],
-            "grananje": [
-              9,
-              10,
-              10,
-              10
-            ]
-          },
+    {
+      "redni": 7,
+      "tekst": "Učenik kaže: „IT je samo računarski hardver.“ Šta je potrebno zapamtiti?",
+      "slika": "",
+      "odgovori": [
+        "IT obuhvata samo hardver",
+        "IT obuhvata hardver i softver, kao deo računarskih sistema za rad sa informacijama",
+        "IT obuhvata samo internet",
+        "IT nema veze sa softverom"
+      ],
+      "tacni": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "grananje": [
+        -1,
+        1,
+        -1,
+        -1
+      ]
+    },
 
-          {
-            "redni": 8,
-            "tekst": "Koja tvrdnja najbolje razlikuje IT i IKT?",
-            "slika": "",
-            "odgovori": [
-              "IT obuhvata informacione tehnologije, a IKT je širi pojam jer uključuje i komunikacione tehnologije",
-              "IT je širi pojam od IKT jer ne uključuje komunikaciju",
-              "IT i IKT su dva potpuno nepovezana pojma",
-              "IKT se odnosi samo na računarski hardver"
-            ],
-            "tacni": [
-              true,
-              false,
-              false,
-              false
-            ],
-            "grananje": [
-              11,
-              10,
-              10,
-              10
-            ]
-          },
+    {
+      "redni": 8,
+      "tekst": "Pogrešno si povezao skraćenicu IKT sa njenim značenjem. Koje je tačno značenje?",
+      "slika": "",
+      "odgovori": [
+        "Informacione tehnologije",
+        "Informaciono-komunikacione tehnologije",
+        "Internet komunikacione tehnologije",
+        "Informatičke kontrolne tehnologije"
+      ],
+      "tacni": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "grananje": [
+        -1,
+        3,
+        -1,
+        -1
+      ]
+    },
 
-          {
-            "redni": 9,
-            "tekst": "Da li IKT obuhvata komunikacione tehnologije?",
-            "slika": "",
-            "odgovori": [
-              "Da",
-              "Ne",
-              "Samo kada se koriste računarske igre",
-              "Samo kada nema interneta"
-            ],
-            "tacni": [
-              true,
-              false,
-              false,
-              false
-            ],
-            "grananje": [
-              11,
-              10,
-              10,
-              10
-            ]
-          },
+    {
+      "redni": 9,
+      "tekst": "Ako informacionim tehnologijama (IT) dodamo komunikacione tehnologije, šta dobijamo?",
+      "slika": "",
+      "odgovori": [
+        "Širi pojam – IKT",
+        "Uži pojam – samo hardver",
+        "Samo računarske igre",
+        "Ništa, IT i IKT nemaju veze"
+      ],
+      "tacni": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "grananje": [
+        3,
+        -1,
+        -1,
+        -1
+      ]
+    },
 
-          {
-            "redni": 10,
-            "tekst": "Dopuni: Kada na IT dodamo komunikacione tehnologije, dobijamo širi pojam ______.",
-            "slika": "",
-            "odgovori": [
-              "IT",
-              "IKT",
-              "CPU",
-              "RAM"
-            ],
-            "tacni": [
-              false,
-              true,
-              false,
-              false
-            ],
-            "grananje": [
-              -1,
-              11,
-              -1,
-              -1
-            ]
-          },
+    {
+      "redni": 10,
+      "tekst": "Učenik misli da su IT i IKT potpuno nepovezani. Koja tvrdnja pokazuje njihovu vezu?",
+      "slika": "",
+      "odgovori": [
+        "IKT je širi pojam jer IT proširuje komunikacionim tehnologijama",
+        "IT i IKT nemaju nikakvu vezu",
+        "IT označava samo igre",
+        "IKT označava samo hardver"
+      ],
+      "tacni": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "grananje": [
+        3,
+        -1,
+        -1,
+        -1
+      ]
+    },
 
-          {
-            "redni": 11,
-            "tekst": "Koja tvrdnja je tačna?",
-            "slika": "",
-            "odgovori": [
-              "IKT predstavlja IT proširen komunikacionim tehnologijama",
-              "IKT predstavlja samo računarski hardver",
-              "IKT predstavlja samo internet",
-              "IKT nema veze sa komunikacionim tehnologijama"
-            ],
-            "tacni": [
-              true,
-              false,
-              false,
-              false
-            ],
-            "grananje": [
-              12,
-              -1,
-              -1,
-              -1
-            ]
-          },
-
-          {
-            "redni": 12,
-            "tekst": "Koja tvrdnja pravilno povezuje IT i IKT?",
-            "slika": "",
-            "odgovori": [
-              "IT obuhvata informacione tehnologije, a IKT predstavlja širi pojam koji uključuje i komunikacione tehnologije",
-              "IT znači samo internet, a IKT samo hardver",
-              "IT i IKT označavaju isključivo računarske igre",
-              "IT i IKT nemaju nikakvu vezu"
-            ],
-            "tacni": [
-              true,
-              false,
-              false,
-              false
-            ],
-            "grananje": [
-              13,
-              -1,
-              -1,
-              -1
-            ]
-          }
-        ]
-      },
+    {
+      "redni": 11,
+      "tekst": "Učenik kaže da se IKT odnosi samo na računarski hardver. Koja tvrdnja ga ispravlja?",
+      "slika": "",
+      "odgovori": [
+        "IKT predstavlja IT proširen komunikacionim tehnologijama",
+        "IKT predstavlja samo hardver",
+        "IKT predstavlja samo internet",
+        "IKT nema veze sa komunikacionim tehnologijama"
+      ],
+      "tacni": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "grananje": [
+        3,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  ]
+},
 
 
     {
